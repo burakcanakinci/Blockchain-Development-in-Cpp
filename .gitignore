@@ -1,0 +1,22 @@
+
+src/test_ndc
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+/deps
+#compilation and Qt preprocessor part
+
+
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+
+*.stash
+!src/leveldb/Makefile
